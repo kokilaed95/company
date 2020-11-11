@@ -7,13 +7,13 @@ Create app inside the project => python manage.py startapp staff
 
 2. Make database changes in models and run the following commands
 
-Python manage.py makemigrations
+   Python manage.py makemigrations
 
-Python manage.py migrate
+   Python manage.py migrate
 
-python manage.py createsuperuser
+   python manage.py createsuperuser
 
-Python manage.py runserver
+   Python manage.py runserver
 
 3. The admin page can be accessed by the URL http://localhost:8000/admin
 4. Department list page - http://localhost:8000/staff/departments/ (department_list.html)
