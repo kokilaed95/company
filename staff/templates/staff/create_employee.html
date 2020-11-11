@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XYZ Company</title>
+</head>
+<body>
+	<h1>Create Employee</h1>
+<form method="post" action="">
+{% csrf_token %}
+{{ form.as_p }}
+<input type="submit" value="Add"/>
+</form>
+</body>
+</html>

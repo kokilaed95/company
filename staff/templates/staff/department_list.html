@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XYZ company</title>
+</head>
+<body>
+<h1>Departments</h1>
+<ul>
+{% for department in object_list %}
+  <li><a href="{% url 'department-detail' department.id %}">{{department}}</a></li>
+{% endfor %}
+</ul>
+</body>
+</html>

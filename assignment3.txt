@@ -1,0 +1,4 @@
+3. django-admin startproject company
+python manage.py startapp staff
+
+8. template file path - /staff/templates/staff/
